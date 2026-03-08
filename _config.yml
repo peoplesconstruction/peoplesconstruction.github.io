@@ -1,0 +1,25 @@
+title: BCCA People Construction
+description: "Quality Landscaping & Construction Since 2009 - Serving Vancouver & Lower Mainland"
+url: "https://peoplesconstruction.github.io"
+baseurl: ""
+
+permalink: pretty
+
+defaults:
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
+      lang_name: "English"
+  - scope:
+      path: "zh"
+    values:
+      lang: "zh"
+      lang_name: "中文"
+
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - README.md
+  - docs/
+  - .Rhistory
