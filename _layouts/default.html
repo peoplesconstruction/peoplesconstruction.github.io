@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="{{ page.lang | default: 'en' }}">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{{ page.title }} | BCCA People Construction</title>
+  <meta name="description" content="{{ page.description | default: site.description }}">
+
+  {% if page.lang == 'en' and page.zh_pair %}
+  <link rel="alternate" hreflang="zh" href="{{ site.url }}{{ page.zh_pair }}">
+  <link rel="alternate" hreflang="en" href="{{ page.url }}">
+  {% elsif page.lang == 'zh' and page.en_pair %}
+  <link rel="alternate" hreflang="en" href="{{ site.url }}{{ page.en_pair }}">
+  <link rel="alternate" hreflang="zh" href="{{ page.url }}">
+  {% endif %}
+
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500&family=Montserrat:wght@600;700&display=swap" rel="stylesheet">
+
+  <link rel="stylesheet" href="/assets/css/main.css">
+
+  {% if page.lang == 'en' %}
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "LocalBusiness",
+    "name": "BCCA People Construction",
+    "description": "Quality Landscaping & Construction Since 2009",
+    "url": "{{ site.url }}",
+    "telephone": "{{ site.data.contact.phone }}",
+    "email": "{{ site.data.contact.email }}",
+    "address": {
+      "@type": "PostalAddress",
+      "addressLocality": "Vancouver",
+      "addressRegion": "BC",
+      "addressCountry": "CA"
+    },
+    "areaServed": "Vancouver & Lower Mainland",
+    "foundingDate": "2009"
+  }
+  </script>
+  {% endif %}
+</head>
+<body>
+  {% include header.html %}
+  <main>
+    {{ content }}
+  </main>
+  {% include footer.html %}
+  <script src="/assets/js/main.js"></script>
+</body>
+</html>

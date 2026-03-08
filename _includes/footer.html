@@ -1,0 +1,63 @@
+<div class="cta-banner">
+  <div class="container">
+    {% if page.lang == 'en' %}
+    <h2>Ready to Transform Your Outdoor Space?</h2>
+    <p>Contact us today for a free consultation</p>
+    <a href="/en/contact/" class="btn btn-outline">Get in Touch</a>
+    {% else %}
+    <h2>准备好改造您的户外空间了吗？</h2>
+    <p>立即联系我们，获取免费咨询</p>
+    <a href="/zh/contact/" class="btn btn-outline">联系我们</a>
+    {% endif %}
+  </div>
+</div>
+<footer class="site-footer">
+  <div class="container">
+    <div class="footer-grid">
+      <div>
+        <div class="footer-brand">BCCA People Construction</div>
+        {% if page.lang == 'en' %}
+        <p>Quality landscaping and construction services in Vancouver and the Lower Mainland since 2009.</p>
+        {% else %}
+        <p>自2009年以来，为温哥华和大温地区提供优质园林绿化和建筑服务。</p>
+        {% endif %}
+      </div>
+      <div>
+        {% if page.lang == 'en' %}
+        <h4>Quick Links</h4>
+        <div class="footer-links">
+          <a href="/en/">Home</a>
+          <a href="/en/services/">Services</a>
+          <a href="/en/portfolio/">Portfolio</a>
+          <a href="/en/about/">About</a>
+          <a href="/en/contact/">Contact</a>
+        </div>
+        {% else %}
+        <h4>快速链接</h4>
+        <div class="footer-links">
+          <a href="/zh/">首页</a>
+          <a href="/zh/services/">服务</a>
+          <a href="/zh/portfolio/">项目</a>
+          <a href="/zh/about/">关于</a>
+          <a href="/zh/contact/">联系</a>
+        </div>
+        {% endif %}
+      </div>
+      <div>
+        {% if page.lang == 'en' %}
+        <h4>Contact</h4>
+        {% else %}
+        <h4>联系方式</h4>
+        {% endif %}
+        <div class="footer-links">
+          <a href="tel:{{ site.data.contact.phone }}">{{ site.data.contact.phone }}</a>
+          <a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a>
+          <p>{{ site.data.contact.address }}</p>
+        </div>
+      </div>
+    </div>
+    <div class="footer-bottom">
+      &copy; {{ 'now' | date: '%Y' }} BCCA People Construction. All rights reserved.
+    </div>
+  </div>
+</footer>
