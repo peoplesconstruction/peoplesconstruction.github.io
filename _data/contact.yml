@@ -1,0 +1,10 @@
+phone: "(604) 555-0123"
+email: "info@peoplesconstruction.com"
+wechat_qr: "/assets/images/contact/wechat-qr.jpg"
+address: "Vancouver, BC, Canada"
+service_area: "Vancouver & Lower Mainland"
+hours:
+  weekday: "Mon - Fri: 8:00 AM - 6:00 PM"
+  weekend: "Sat: 9:00 AM - 4:00 PM"
+  closed: "Sun: Closed"
+google_maps_embed: "https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83327.34348747158!2d-123.19394!3d49.257784!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x548673f143a94fb3%3A0xbb9196ea9b81ef5b!2sVancouver%2C%20BC!5e0!3m2!1sen!2sca!4v1"
