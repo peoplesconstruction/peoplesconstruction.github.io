@@ -1,0 +1,95 @@
+---
+layout: default
+title: "Vancouver Landscaping Contractor"
+description: "BCCA People Construction - Quality landscaping, hardscaping, and outdoor construction services in Vancouver & Lower Mainland since 2009."
+lang: en
+nav: home
+zh_pair: /zh/
+---
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg" style="background-image: url('/assets/images/home/hero.jpg')"></div>
+  <div class="hero-content">
+    <h1>BCCA People Construction</h1>
+    <p class="tagline">Quality Landscaping & Construction Since 2009</p>
+    <a href="/en/portfolio/" class="btn btn-primary">View Our Work</a>
+  </div>
+</section>
+
+<!-- Services Overview -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-title"><h2>Our Services</h2></div>
+    <div class="icon-cards">
+      <a href="/en/services/" class="icon-card">
+        <div class="icon">🌿</div>
+        <h3>Landscaping</h3>
+        <p>Complete landscape design, installation, and garden maintenance</p>
+      </a>
+      <a href="/en/services/" class="icon-card">
+        <div class="icon">🧱</div>
+        <h3>Hardscaping</h3>
+        <p>Patios, driveways, retaining walls, and stonework</p>
+      </a>
+      <a href="/en/services/" class="icon-card">
+        <div class="icon">🏡</div>
+        <h3>Outdoor Living</h3>
+        <p>Decks, pergolas, outdoor kitchens, and fire features</p>
+      </a>
+      <a href="/en/services/" class="icon-card">
+        <div class="icon">🔒</div>
+        <h3>Fencing</h3>
+        <p>Wood, vinyl, and composite fencing with custom gates</p>
+      </a>
+      <a href="/en/services/" class="icon-card">
+        <div class="icon">💡</div>
+        <h3>Lighting</h3>
+        <p>Outdoor and landscape lighting design and installation</p>
+      </a>
+      <a href="/en/services/" class="icon-card">
+        <div class="icon">🔧</div>
+        <h3>Exterior</h3>
+        <p>Concrete work, excavation, pressure washing, and more</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Projects -->
+<section class="section">
+  <div class="container">
+    <div class="section-title"><h2>Featured Projects</h2></div>
+    <div class="cards-grid">
+      {% for project in site.data.projects_en limit:3 %}
+      <a href="/en/portfolio/{{ project.id }}/" class="card">
+        <img src="{{ project.cover }}" alt="{{ project.title }}" class="card-image">
+        <div class="card-body">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Trust Bar -->
+<section class="trust-bar">
+  <div class="container">
+    <div class="trust-items">
+      <div class="trust-item">
+        <span class="number">17+</span>
+        <span class="label">Years Experience</span>
+      </div>
+      <div class="trust-item">
+        <span class="number">500+</span>
+        <span class="label">Projects Completed</span>
+      </div>
+      <div class="trust-item">
+        <span class="number">100%</span>
+        <span class="label">Client Satisfaction</span>
+      </div>
+    </div>
+  </div>
+</section>
