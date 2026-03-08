@@ -1,0 +1,32 @@
+---
+layout: project
+title: "定制甲板与户外厨房"
+description: "多层复合材料甲板，配有内置烧烤区和凉亭。"
+lang: zh
+nav: portfolio
+en_pair: /en/portfolio/outdoor-living-deck/
+---
+
+{% assign project = site.data.projects_zh | where: "id", "outdoor-living-deck" | first %}
+
+<p>{{ project.description }}</p>
+
+<div class="project-gallery">
+  {% for img in project.images %}
+  <figure>
+    <img src="{{ img.src }}" alt="{{ img.alt }}">
+    <figcaption>{{ img.caption }}</figcaption>
+  </figure>
+  {% endfor %}
+</div>
+
+<div class="project-services">
+  <h3>使用的服务</h3>
+  <div class="tag-list">
+    {% for svc in project.services %}
+    <span class="tag">{{ svc }}</span>
+    {% endfor %}
+  </div>
+</div>
+
+<p style="margin-top: 32px;"><a href="/zh/portfolio/">&larr; 返回项目</a></p>

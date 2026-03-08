@@ -1,0 +1,32 @@
+---
+layout: project
+title: "Front Yard Paving & Landscaping"
+description: "New interlock driveway and front garden with irrigation system."
+lang: en
+nav: portfolio
+zh_pair: /zh/portfolio/front-yard-paving/
+---
+
+{% assign project = site.data.projects_en | where: "id", "front-yard-paving" | first %}
+
+<p>{{ project.description }}</p>
+
+<div class="project-gallery">
+  {% for img in project.images %}
+  <figure>
+    <img src="{{ img.src }}" alt="{{ img.alt }}">
+    <figcaption>{{ img.caption }}</figcaption>
+  </figure>
+  {% endfor %}
+</div>
+
+<div class="project-services">
+  <h3>Services Used</h3>
+  <div class="tag-list">
+    {% for svc in project.services %}
+    <span class="tag">{{ svc }}</span>
+    {% endfor %}
+  </div>
+</div>
+
+<p style="margin-top: 32px;"><a href="/en/portfolio/">&larr; Back to Portfolio</a></p>

@@ -1,0 +1,32 @@
+---
+layout: project
+title: "Complete Backyard Transformation"
+description: "A full backyard renovation including new patio, retaining wall, and garden beds."
+lang: en
+nav: portfolio
+zh_pair: /zh/portfolio/backyard-transformation/
+---
+
+{% assign project = site.data.projects_en | where: "id", "backyard-transformation" | first %}
+
+<p>{{ project.description }}</p>
+
+<div class="project-gallery">
+  {% for img in project.images %}
+  <figure>
+    <img src="{{ img.src }}" alt="{{ img.alt }}">
+    <figcaption>{{ img.caption }}</figcaption>
+  </figure>
+  {% endfor %}
+</div>
+
+<div class="project-services">
+  <h3>Services Used</h3>
+  <div class="tag-list">
+    {% for svc in project.services %}
+    <span class="tag">{{ svc }}</span>
+    {% endfor %}
+  </div>
+</div>
+
+<p style="margin-top: 32px;"><a href="/en/portfolio/">&larr; Back to Portfolio</a></p>

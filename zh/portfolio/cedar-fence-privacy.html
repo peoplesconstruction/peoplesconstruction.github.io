@@ -1,0 +1,32 @@
+---
+layout: project
+title: "雪松围栏与隐私屏风"
+description: "整个物业的雪松围栏，配有定制大门和隐私屏风。"
+lang: zh
+nav: portfolio
+en_pair: /en/portfolio/cedar-fence-privacy/
+---
+
+{% assign project = site.data.projects_zh | where: "id", "cedar-fence-privacy" | first %}
+
+<p>{{ project.description }}</p>
+
+<div class="project-gallery">
+  {% for img in project.images %}
+  <figure>
+    <img src="{{ img.src }}" alt="{{ img.alt }}">
+    <figcaption>{{ img.caption }}</figcaption>
+  </figure>
+  {% endfor %}
+</div>
+
+<div class="project-services">
+  <h3>使用的服务</h3>
+  <div class="tag-list">
+    {% for svc in project.services %}
+    <span class="tag">{{ svc }}</span>
+    {% endfor %}
+  </div>
+</div>
+
+<p style="margin-top: 32px;"><a href="/zh/portfolio/">&larr; 返回项目</a></p>

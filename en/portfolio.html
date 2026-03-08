@@ -1,0 +1,26 @@
+---
+layout: page
+title: "Our Portfolio"
+heading: "Our Portfolio"
+subtitle: "Browse our completed projects and see the quality of our work"
+description: "Portfolio of landscaping and construction projects by BCCA People Construction in Vancouver BC."
+lang: en
+nav: portfolio
+zh_pair: /zh/portfolio/
+---
+
+<section class="section">
+  <div class="container">
+    <div class="cards-grid">
+      {% for project in site.data.projects_en %}
+      <a href="/en/portfolio/{{ project.id }}/" class="card">
+        <img src="{{ project.cover }}" alt="{{ project.title }}" class="card-image">
+        <div class="card-body">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>

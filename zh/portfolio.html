@@ -1,0 +1,26 @@
+---
+layout: page
+title: "我们的项目"
+heading: "我们的项目"
+subtitle: "浏览我们已完成的项目，了解我们的工程质量"
+description: "BCCA People Construction 在温哥华完成的园林绿化和建筑项目展示。"
+lang: zh
+nav: portfolio
+en_pair: /en/portfolio/
+---
+
+<section class="section">
+  <div class="container">
+    <div class="cards-grid">
+      {% for project in site.data.projects_zh %}
+      <a href="/zh/portfolio/{{ project.id }}/" class="card">
+        <img src="{{ project.cover }}" alt="{{ project.title }}" class="card-image">
+        <div class="card-body">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
