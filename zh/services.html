@@ -1,0 +1,29 @@
+---
+layout: page
+title: "我们的服务"
+heading: "我们的服务"
+subtitle: "为住宅和商业物业提供全面的园林绿化和建筑服务"
+description: "温哥华园林绿化、硬质景观、木甲板建造、围栏和户外建筑服务。"
+lang: zh
+nav: services
+en_pair: /en/services/
+---
+
+<section class="section">
+  <div class="container">
+    {% for service in site.data.services_zh %}
+    <div class="service-category">
+      <img src="{{ service.image }}" alt="{{ service.category }}">
+      <div>
+        <h3>{{ service.category }}</h3>
+        <p>{{ service.description }}</p>
+        <ul class="service-list">
+          {% for item in service.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>

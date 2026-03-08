@@ -1,0 +1,29 @@
+---
+layout: page
+title: "Our Services"
+heading: "Our Services"
+subtitle: "Comprehensive landscaping and construction services for residential and commercial properties"
+description: "Landscaping, hardscaping, deck building, fencing, and outdoor construction services in Vancouver BC."
+lang: en
+nav: services
+zh_pair: /zh/services/
+---
+
+<section class="section">
+  <div class="container">
+    {% for service in site.data.services_en %}
+    <div class="service-category">
+      <img src="{{ service.image }}" alt="{{ service.category }}">
+      <div>
+        <h3>{{ service.category }}</h3>
+        <p>{{ service.description }}</p>
+        <ul class="service-list">
+          {% for item in service.items %}
+          <li>{{ item }}</li>
+          {% endfor %}
+        </ul>
+      </div>
+    </div>
+    {% endfor %}
+  </div>
+</section>
