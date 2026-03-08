@@ -1,0 +1,95 @@
+---
+layout: default
+title: "温哥华园林承包商"
+description: "BCCA People Construction - 自2009年以来，为温哥华和大温地区提供优质的园林绿化、硬质景观和户外建筑服务。"
+lang: zh
+nav: home
+en_pair: /en/
+---
+
+<!-- Hero -->
+<section class="hero">
+  <div class="hero-bg" style="background-image: url('/assets/images/home/hero.jpg')"></div>
+  <div class="hero-content">
+    <h1>BCCA People Construction</h1>
+    <p class="tagline">自2009年以来的优质园林绿化与建筑服务</p>
+    <a href="/zh/portfolio/" class="btn btn-primary">查看我们的项目</a>
+  </div>
+</section>
+
+<!-- Services Overview -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-title"><h2>我们的服务</h2></div>
+    <div class="icon-cards">
+      <a href="/zh/services/" class="icon-card">
+        <div class="icon">🌿</div>
+        <h3>园林绿化</h3>
+        <p>完整的景观设计、施工和花园维护</p>
+      </a>
+      <a href="/zh/services/" class="icon-card">
+        <div class="icon">🧱</div>
+        <h3>硬质景观</h3>
+        <p>露台、车道、挡土墙和石材工程</p>
+      </a>
+      <a href="/zh/services/" class="icon-card">
+        <div class="icon">🏡</div>
+        <h3>户外生活</h3>
+        <p>木甲板、凉亭、户外厨房和火炉</p>
+      </a>
+      <a href="/zh/services/" class="icon-card">
+        <div class="icon">🔒</div>
+        <h3>围栏工程</h3>
+        <p>木质、乙烯基和复合材料围栏及定制大门</p>
+      </a>
+      <a href="/zh/services/" class="icon-card">
+        <div class="icon">💡</div>
+        <h3>照明工程</h3>
+        <p>户外和景观照明设计与安装</p>
+      </a>
+      <a href="/zh/services/" class="icon-card">
+        <div class="icon">🔧</div>
+        <h3>外部工程</h3>
+        <p>混凝土工程、挖掘、高压清洗等</p>
+      </a>
+    </div>
+  </div>
+</section>
+
+<!-- Featured Projects -->
+<section class="section">
+  <div class="container">
+    <div class="section-title"><h2>精选项目</h2></div>
+    <div class="cards-grid">
+      {% for project in site.data.projects_zh limit:3 %}
+      <a href="/zh/portfolio/{{ project.id }}/" class="card">
+        <img src="{{ project.cover }}" alt="{{ project.title }}" class="card-image">
+        <div class="card-body">
+          <h3>{{ project.title }}</h3>
+          <p>{{ project.description }}</p>
+        </div>
+      </a>
+      {% endfor %}
+    </div>
+  </div>
+</section>
+
+<!-- Trust Bar -->
+<section class="trust-bar">
+  <div class="container">
+    <div class="trust-items">
+      <div class="trust-item">
+        <span class="number">17+</span>
+        <span class="label">年经验</span>
+      </div>
+      <div class="trust-item">
+        <span class="number">500+</span>
+        <span class="label">完成项目</span>
+      </div>
+      <div class="trust-item">
+        <span class="number">100%</span>
+        <span class="label">客户满意度</span>
+      </div>
+    </div>
+  </div>
+</section>
