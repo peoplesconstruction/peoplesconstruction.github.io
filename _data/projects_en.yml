@@ -16,7 +16,7 @@
 
 - id: "front-yard-paving"
   title: "Front Yard Paving & Landscaping"
-  description: "New interlock driveway and front garden with irrigation system."
+  description: "New paver driveway and front garden with irrigation system."
   cover: "/assets/images/portfolio/project-2-cover.jpg"
   images:
     - src: "/assets/images/portfolio/project-2-before.jpg"
@@ -62,7 +62,7 @@
     - "Garden bed creation & planting"
     - "Outdoor lighting & landscape lighting"
 
-- id: "wood-fence-privacy"
+- id: "cedar-fence-privacy"
   title: "Wood Fence & Privacy Screen"
   description: "Full property wood fencing with custom gate and privacy screening."
   cover: "/assets/images/portfolio/project-5-cover.jpg"

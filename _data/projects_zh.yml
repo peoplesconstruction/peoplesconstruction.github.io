@@ -16,7 +16,7 @@
 
 - id: "front-yard-paving"
   title: "前院铺装与绿化"
-  description: "新的联锁砖车道和带灌溉系统的前花园。"
+  description: "新的地砖车道和带灌溉系统的前花园。"
   cover: "/assets/images/portfolio/project-2-cover.jpg"
   images:
     - src: "/assets/images/portfolio/project-2-before.jpg"
