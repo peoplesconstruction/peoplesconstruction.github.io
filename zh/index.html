@@ -13,7 +13,7 @@ en_pair: /en/
   <div class="hero-content">
     <h1>BCCA Peoples Construction LTD</h1>
     <p class="tagline">自2009年以来的优质园林绿化与建筑服务</p>
-    <a href="/zh/portfolio/" class="btn btn-primary">查看我们的项目</a>
+    <a href="/zh/portfolio/" class="btn btn-primary">查看我们的作品</a>
   </div>
 </section>
 
@@ -56,21 +56,23 @@ en_pair: /en/
   </div>
 </section>
 
-<!-- Featured Projects -->
+<!-- Our Work -->
 <section class="section">
   <div class="container">
-    <div class="section-title"><h2>精选项目</h2></div>
-    <div class="cards-grid">
-      {% for project in site.data.projects_zh limit:3 %}
-      <a href="/zh/portfolio/{{ project.id }}/" class="card">
-        <img src="{{ project.cover }}" alt="{{ project.title }}" class="card-image">
-        <div class="card-body">
-          <h3>{{ project.title }}</h3>
-          <p>{{ project.description }}</p>
-        </div>
-      </a>
+    <div class="section-title"><h2>作品展示</h2></div>
+    <div class="gallery-grid gallery-grid--compact">
+      {% for photo in site.data.gallery_zh limit:6 %}
+      <figure class="gallery-item">
+        <img src="{{ photo.src }}" alt="{{ photo.alt }}" loading="lazy">
+        <figcaption>
+          <span>{{ photo.caption }}</span>
+        </figcaption>
+      </figure>
       {% endfor %}
     </div>
+    <p style="text-align: center; margin-top: 32px;">
+      <a href="/zh/portfolio/" class="btn btn-primary">查看全部照片</a>
+    </p>
   </div>
 </section>
 

@@ -1,9 +1,9 @@
 ---
 layout: page
-title: "我们的项目"
-heading: "我们的项目"
-subtitle: "浏览我们已完成的项目，了解我们的工程质量"
-description: "BCCA Peoples Construction LTD 在温哥华完成的园林绿化和建筑项目展示。"
+title: "作品展示"
+heading: "作品展示"
+subtitle: "浏览我们在大温地区完成的工程照片"
+description: "BCCA Peoples Construction LTD 在温哥华完成的园林绿化和建筑工程照片展示。"
 lang: zh
 nav: portfolio
 en_pair: /en/portfolio/
@@ -11,15 +11,14 @@ en_pair: /en/portfolio/
 
 <section class="section">
   <div class="container">
-    <div class="cards-grid">
-      {% for project in site.data.projects_zh %}
-      <a href="/zh/portfolio/{{ project.id }}/" class="card">
-        <img src="{{ project.cover }}" alt="{{ project.title }}" class="card-image">
-        <div class="card-body">
-          <h3>{{ project.title }}</h3>
-          <p>{{ project.description }}</p>
-        </div>
-      </a>
+    <div class="gallery-grid">
+      {% for photo in site.data.gallery_zh %}
+      <figure class="gallery-item">
+        <img src="{{ photo.src }}" alt="{{ photo.alt }}" loading="lazy">
+        <figcaption>
+          <span>{{ photo.caption }}</span>
+        </figcaption>
+      </figure>
       {% endfor %}
     </div>
   </div>
