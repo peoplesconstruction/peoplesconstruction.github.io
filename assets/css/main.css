@@ -28,7 +28,7 @@
 }
 
 html {
-  font-size: 16px;
+  font-size: 18px;
   scroll-behavior: smooth;
 }
 
@@ -323,7 +323,7 @@ main {
 
 .card-body p {
   color: var(--color-text-light);
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 /* --- Service Icons Grid (Home Page) --- */
@@ -565,7 +565,7 @@ main {
 .contact-info-item p {
   color: var(--color-text-light);
   margin-bottom: 0;
-  font-size: 0.95rem;
+  font-size: 1rem;
 }
 
 .wechat-qr {
