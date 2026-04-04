@@ -15,11 +15,11 @@
   <div class="container">
     <div class="footer-grid">
       <div>
-        <div class="footer-brand">BCCA People Construction</div>
+        <div class="footer-brand">BCCA Peoples Construction LTD</div>
         {% if page.lang == 'en' %}
-        <p>Quality landscaping and construction services in Vancouver and the Lower Mainland since 2009.</p>
+        <p>Quality landscaping and construction services in the Greater Vancouver area since 2009.</p>
         {% else %}
-        <p>自2009年以来，为温哥华和大温地区提供优质园林绿化和建筑服务。</p>
+        <p>自2009年以来，为大温地区提供优质园林绿化和建筑服务。</p>
         {% endif %}
       </div>
       <div>
@@ -50,14 +50,18 @@
         <h4>联系方式</h4>
         {% endif %}
         <div class="footer-links">
-          <a href="tel:{{ site.data.contact.phone }}">{{ site.data.contact.phone }}</a>
+          {% if page.lang == 'en' %}
+          <a href="tel:{{ site.data.contact.phone_en }}">{{ site.data.contact.phone_en }}</a>
+          {% else %}
+          <a href="tel:{{ site.data.contact.phone_zh }}">{{ site.data.contact.phone_zh }}</a>
+          {% endif %}
           <a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a>
           <p>{{ site.data.contact.address }}</p>
         </div>
       </div>
     </div>
     <div class="footer-bottom">
-      &copy; {{ 'now' | date: '%Y' }} BCCA People Construction. All rights reserved.
+      &copy; {{ 'now' | date: '%Y' }} BCCA Peoples Construction LTD. All rights reserved.
     </div>
   </div>
 </footer>

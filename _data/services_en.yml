@@ -4,12 +4,10 @@
   items:
     - "Landscape design & installation"
     - "Garden bed creation & planting"
-    - "Sod installation & lawn care"
-    - "Tree & shrub planting"
+    - "Sod installation"
     - "Irrigation & sprinkler systems"
     - "Drainage solutions"
     - "Yard grading & leveling"
-    - "Seasonal planting & maintenance"
 
 - category: "Hardscaping & Masonry"
   image: "/assets/images/services/hardscaping.jpg"
@@ -21,7 +19,6 @@
     - "Garden walls & borders"
     - "Walkways & pathways"
     - "Steps & staircases"
-    - "Curbing & edging"
 
 - category: "Outdoor Living"
   image: "/assets/images/services/outdoor-living.jpg"
@@ -30,9 +27,7 @@
     - "Custom deck building (wood & composite)"
     - "Pergolas & gazebos"
     - "Outdoor kitchens & BBQ areas"
-    - "Fire pits & fireplaces"
     - "Patio covers & shade structures"
-    - "Hot tub surrounds"
     - "Outdoor lighting & landscape lighting"
 
 - category: "Fencing & Privacy"
@@ -49,10 +44,8 @@
   image: "/assets/images/services/exterior.jpg"
   description: "Complete exterior and property services to keep your property looking its best year-round."
   items:
-    - "Driveway sealing & repair"
     - "Concrete work (sidewalks, pads, foundations)"
     - "Excavation & demolition"
     - "Snow removal (seasonal)"
     - "Pressure washing"
-    - "Property maintenance"
     - "And more..."

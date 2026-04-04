@@ -31,18 +31,18 @@
     - "灌溉与喷淋系统"
 
 - id: "outdoor-living-deck"
-  title: "定制甲板与户外厨房"
-  description: "多层复合材料甲板，配有内置烧烤区和凉亭。"
+  title: "定制木平台与户外厨房"
+  description: "多层复合材料木平台，配有内置烧烤区和凉亭。"
   cover: "/assets/images/portfolio/project-3-cover.jpg"
   images:
     - src: "/assets/images/portfolio/project-3-before.jpg"
-      alt: "甲板建造前"
+      alt: "木平台建造前"
       caption: "施工前"
     - src: "/assets/images/portfolio/project-3-after.jpg"
-      alt: "完成的甲板和户外厨房"
+      alt: "完成的木平台和户外厨房"
       caption: "施工后"
   services:
-    - "定制木甲板（实木与复合材料）"
+    - "定制木平台（实木与复合材料）"
     - "户外厨房与烧烤区"
     - "凉亭与花架"
 
@@ -63,15 +63,15 @@
     - "户外照明与景观照明"
 
 - id: "cedar-fence-privacy"
-  title: "雪松围栏与隐私屏风"
-  description: "整个物业的雪松围栏，配有定制大门和隐私屏风。"
+  title: "木围栏与隐私屏风"
+  description: "整个物业的木围栏，配有定制大门和隐私屏风。"
   cover: "/assets/images/portfolio/project-5-cover.jpg"
   images:
     - src: "/assets/images/portfolio/project-5-before.jpg"
       alt: "围栏施工前"
       caption: "施工前"
     - src: "/assets/images/portfolio/project-5-after.jpg"
-      alt: "完成的雪松围栏"
+      alt: "完成的木围栏"
       caption: "施工后"
   services:
     - "木围栏"

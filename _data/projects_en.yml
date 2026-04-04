@@ -62,16 +62,16 @@
     - "Garden bed creation & planting"
     - "Outdoor lighting & landscape lighting"
 
-- id: "cedar-fence-privacy"
-  title: "Cedar Fence & Privacy Screen"
-  description: "Full property cedar fencing with custom gate and privacy screening."
+- id: "wood-fence-privacy"
+  title: "Wood Fence & Privacy Screen"
+  description: "Full property wood fencing with custom gate and privacy screening."
   cover: "/assets/images/portfolio/project-5-cover.jpg"
   images:
     - src: "/assets/images/portfolio/project-5-before.jpg"
       alt: "Property before fencing"
       caption: "Before"
     - src: "/assets/images/portfolio/project-5-after.jpg"
-      alt: "Completed cedar fence"
+      alt: "Completed wood fence"
       caption: "After"
   services:
     - "Wood fencing"

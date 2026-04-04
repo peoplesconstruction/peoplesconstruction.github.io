@@ -1,5 +1,5 @@
 #!/usr/bin/env python3
-"""Generate placeholder images for BCCA People Construction website."""
+"""Generate placeholder images for BCCA Peoples Construction LTD website."""
 
 from PIL import Image, ImageDraw, ImageFont
 import os
