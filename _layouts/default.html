@@ -6,6 +6,15 @@
   <title>{{ page.title }} | BCCA Peoples Construction LTD</title>
   <meta name="description" content="{{ page.description | default: site.description }}">
 
+  <!-- Google tag (gtag.js) -->
+  <script async src="https://www.googletagmanager.com/gtag/js?id=AW-18062849405"></script>
+  <script>
+    window.dataLayer = window.dataLayer || [];
+    function gtag(){dataLayer.push(arguments);}
+    gtag('js', new Date());
+    gtag('config', 'AW-18062849405');
+  </script>
+
   {% if page.lang == 'en' and page.zh_pair %}
   <link rel="alternate" hreflang="zh" href="{{ site.url }}{{ page.zh_pair }}">
   <link rel="alternate" hreflang="en" href="{{ page.url }}">
