@@ -19,7 +19,12 @@
       "Bash(sips --help)",
       "Bash(sips:*)",
       "Bash(bundle exec:*)",
-      "Bash(bundle install:*)"
+      "Bash(bundle install:*)",
+      "Bash(cp new_photos/1454.JPG gallery/putting-green-pergola.jpg)",
+      "Bash(cp new_photos/1467.JPG gallery/wood-tile-patio.jpg)",
+      "Bash(cp new_photos/1472.JPG gallery/iron-gate-pavers.jpg)",
+      "Bash(cp new_photos/1499.JPG gallery/luxury-patio-pool.jpg)",
+      "Bash(cp new_photos/1510.JPG gallery/retaining-wall-plantings.jpg)"
     ]
   }
 }
