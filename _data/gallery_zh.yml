@@ -1,7 +1,3 @@
-- src: "/assets/images/gallery/putting-green-pergola.jpg"
-  alt: "后院景观:高尔夫果岭、凉亭与成熟花园"
-  caption: "后院果岭与花园"
-
 - src: "/assets/images/gallery/luxury-patio-pool.jpg"
   alt: "豪宅花岗岩露台、泳池与大台阶"
   caption: "豪华露台与泳池"
@@ -14,29 +10,29 @@
   alt: "现代木纹瓷砖露台配白色石材边框与花池"
   caption: "木纹瓷砖露台"
 
-- src: "/assets/images/gallery/iron-gate-pavers.jpg"
-  alt: "精致铁艺大门与人字形铺路石步道"
-  caption: "铁艺大门与铺路石步道"
+- src: "/assets/images/gallery/pergola-deck.jpg"
+  alt: "复合材料平台上的木制凉亭"
+  caption: "凉亭与复合材料平台"
 
-- src: "/assets/images/gallery/front-yard-landscaping.jpg"
-  alt: "前院石材挡土墙和专业绿化"
-  caption: "前院绿化工程"
-
-- src: "/assets/images/gallery/modern-home-walkway.jpg"
-  alt: "现代住宅混凝土步道与新铺草坪"
-  caption: "现代住宅前院"
+- src: "/assets/images/gallery/deck-lawn-planters.jpg"
+  alt: "后院复合材料平台、草坪、混凝土边框与木质花池"
+  caption: "多层级后院设计"
 
 - src: "/assets/images/gallery/flagstone-walkway.jpg"
   alt: "花园中的天然石板步道"
   caption: "天然石板花园步道"
 
-- src: "/assets/images/gallery/pergola-deck.jpg"
-  alt: "复合材料平台上的木制凉亭"
-  caption: "凉亭与复合材料平台"
+- src: "/assets/images/gallery/paver-walkway.jpg"
+  alt: "沿房屋的砖铺步道与绿化"
+  caption: "砖铺步道"
 
-- src: "/assets/images/gallery/retaining-wall-lanterns.jpg"
-  alt: "带装饰灯柱的石材挡土墙"
-  caption: "灯柱挡土墙"
+- src: "/assets/images/gallery/paver-walkway-fence.jpg"
+  alt: "木栅栏与房屋之间的铺路石步道,配鹅卵石边框"
+  caption: "侧院铺路步道"
+
+- src: "/assets/images/gallery/modern-home-walkway.jpg"
+  alt: "现代住宅混凝土步道与新铺草坪"
+  caption: "现代住宅前院"
 
 - src: "/assets/images/gallery/retaining-wall-rhododendron.jpg"
   alt: "砌块挡土墙配石材台阶与杜鹃花"
@@ -54,10 +50,6 @@
   alt: "树木周围的人工草坪果岭"
   caption: "果岭安装"
 
-- src: "/assets/images/gallery/paver-walkway.jpg"
-  alt: "沿房屋的砖铺步道与绿化"
-  caption: "砖铺步道"
-
 - src: "/assets/images/gallery/raised-garden-beds.jpg"
   alt: "铺装露台上的定制木质高架花坛"
   caption: "高架花坛"
@@ -65,10 +57,6 @@
 - src: "/assets/images/gallery/driveway-closeup.jpg"
   alt: "多色铺路石车道图案特写"
   caption: "车道细节"
-
-- src: "/assets/images/gallery/excavator-front-yard.jpg"
-  alt: "豪宅前的小型挖掘机施工"
-  caption: "挖掘机施工中"
 
 - src: "/assets/images/gallery/concrete-pour.jpg"
   alt: "混凝土浇筑作业与钢筋准备、水泥罐车"

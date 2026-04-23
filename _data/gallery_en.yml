@@ -1,7 +1,3 @@
-- src: "/assets/images/gallery/putting-green-pergola.jpg"
-  alt: "Landscaped backyard with putting green, pergola, and mature garden"
-  caption: "Backyard Putting Green & Garden"
-
 - src: "/assets/images/gallery/luxury-patio-pool.jpg"
   alt: "Luxury home with granite patio, pool, and grand staircase"
   caption: "Luxury Patio & Pool"
@@ -14,29 +10,29 @@
   alt: "Modern wood-look tile patio with white stone border and raised planter"
   caption: "Wood-Tile Patio"
 
-- src: "/assets/images/gallery/iron-gate-pavers.jpg"
-  alt: "Ornate iron gate with herringbone paver walkway"
-  caption: "Iron Gate & Paver Walkway"
+- src: "/assets/images/gallery/pergola-deck.jpg"
+  alt: "Wooden pergola over composite deck"
+  caption: "Pergola & Composite Deck"
 
-- src: "/assets/images/gallery/front-yard-landscaping.jpg"
-  alt: "Front yard with stone retaining wall and professional landscaping"
-  caption: "Front Yard Landscaping"
-
-- src: "/assets/images/gallery/modern-home-walkway.jpg"
-  alt: "Modern home with concrete walkway and freshly laid sod lawn"
-  caption: "Modern Home Front Yard"
+- src: "/assets/images/gallery/deck-lawn-planters.jpg"
+  alt: "Backyard with composite deck, lawn, concrete borders, and raised planter boxes"
+  caption: "Multi-Level Backyard Design"
 
 - src: "/assets/images/gallery/flagstone-walkway.jpg"
   alt: "Flagstone walkway through manicured garden"
   caption: "Flagstone Garden Walkway"
 
-- src: "/assets/images/gallery/pergola-deck.jpg"
-  alt: "Wooden pergola over composite deck"
-  caption: "Pergola & Composite Deck"
+- src: "/assets/images/gallery/paver-walkway.jpg"
+  alt: "Brick paver walkway along house with landscaping"
+  caption: "Paver Walkway"
 
-- src: "/assets/images/gallery/retaining-wall-lanterns.jpg"
-  alt: "Stone retaining wall with decorative lantern pillars"
-  caption: "Retaining Wall with Lantern Pillars"
+- src: "/assets/images/gallery/paver-walkway-fence.jpg"
+  alt: "Paver path between wood fence and house with river rock borders"
+  caption: "Side Yard Paver Path"
+
+- src: "/assets/images/gallery/modern-home-walkway.jpg"
+  alt: "Modern home with concrete walkway and freshly laid sod lawn"
+  caption: "Modern Home Front Yard"
 
 - src: "/assets/images/gallery/retaining-wall-rhododendron.jpg"
   alt: "Block retaining wall with stone steps and flowering rhododendron"
@@ -54,10 +50,6 @@
   alt: "Putting green with artificial turf around tree"
   caption: "Putting Green Installation"
 
-- src: "/assets/images/gallery/paver-walkway.jpg"
-  alt: "Brick paver walkway along house with landscaping"
-  caption: "Paver Walkway"
-
 - src: "/assets/images/gallery/raised-garden-beds.jpg"
   alt: "Custom raised wooden garden beds on paved patio"
   caption: "Raised Garden Beds"
@@ -65,10 +57,6 @@
 - src: "/assets/images/gallery/driveway-closeup.jpg"
   alt: "Close-up of multi-tone paver driveway pattern"
   caption: "Paver Driveway Detail"
-
-- src: "/assets/images/gallery/excavator-front-yard.jpg"
-  alt: "Bobcat excavator at the front of an elegant home"
-  caption: "Excavation in Progress"
 
 - src: "/assets/images/gallery/concrete-pour.jpg"
   alt: "Concrete pour with rebar preparation and cement truck"
