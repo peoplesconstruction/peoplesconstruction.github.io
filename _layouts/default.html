@@ -15,6 +15,42 @@
     gtag('config', 'AW-18062849405');
   </script>
 
+  <!-- Event snippet for Click to call conversion page -->
+  <script>
+  function gtag_report_conversion_call(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18062849405/AavgCOCm4aEcEP3qhKVD',
+        'value': 1.0,
+        'currency': 'CAD',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+
+  <!-- Event snippet for Email conversion page -->
+  <script>
+  function gtag_report_conversion_email(url) {
+    var callback = function () {
+      if (typeof(url) != 'undefined') {
+        window.location = url;
+      }
+    };
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18062849405/2US0CM2oy6EcEP3qhKVD',
+        'value': 1.0,
+        'currency': 'CAD',
+        'event_callback': callback
+    });
+    return false;
+  }
+  </script>
+
   {% if page.lang == 'en' and page.zh_pair %}
   <link rel="alternate" hreflang="zh" href="{{ site.url }}{{ page.zh_pair }}">
   <link rel="alternate" hreflang="en" href="{{ page.url }}">

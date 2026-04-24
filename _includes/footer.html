@@ -51,11 +51,11 @@
         {% endif %}
         <div class="footer-links">
           {% if page.lang == 'en' %}
-          <a href="tel:{{ site.data.contact.phone_en }}">{{ site.data.contact.phone_en }}</a>
+          <a href="tel:{{ site.data.contact.phone_en }}" onclick="return gtag_report_conversion_call('tel:{{ site.data.contact.phone_en }}');">{{ site.data.contact.phone_en }}</a>
           {% else %}
-          <a href="tel:{{ site.data.contact.phone_zh }}">{{ site.data.contact.phone_zh }}</a>
+          <a href="tel:{{ site.data.contact.phone_zh }}" onclick="return gtag_report_conversion_call('tel:{{ site.data.contact.phone_zh }}');">{{ site.data.contact.phone_zh }}</a>
           {% endif %}
-          <a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a>
+          <a href="mailto:{{ site.data.contact.email }}" onclick="return gtag_report_conversion_email('mailto:{{ site.data.contact.email }}');">{{ site.data.contact.email }}</a>
           <p>{{ site.data.contact.address }}</p>
         </div>
       </div>

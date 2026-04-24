@@ -20,7 +20,7 @@ en_pair: /en/contact/
           <div class="icon">📞</div>
           <div>
             <h4>电话</h4>
-            <p><a href="tel:{{ site.data.contact.phone_zh }}">{{ site.data.contact.phone_zh }}</a></p>
+            <p><a href="tel:{{ site.data.contact.phone_zh }}" onclick="return gtag_report_conversion_call('tel:{{ site.data.contact.phone_zh }}');">{{ site.data.contact.phone_zh }}</a></p>
           </div>
         </div>
 
@@ -28,7 +28,7 @@ en_pair: /en/contact/
           <div class="icon">✉️</div>
           <div>
             <h4>电子邮件</h4>
-            <p><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></p>
+            <p><a href="mailto:{{ site.data.contact.email }}" onclick="return gtag_report_conversion_email('mailto:{{ site.data.contact.email }}');">{{ site.data.contact.email }}</a></p>
           </div>
         </div>
 

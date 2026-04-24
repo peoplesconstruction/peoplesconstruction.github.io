@@ -20,7 +20,7 @@ zh_pair: /zh/contact/
           <div class="icon">📞</div>
           <div>
             <h4>Phone</h4>
-            <p><a href="tel:{{ site.data.contact.phone_en }}">{{ site.data.contact.phone_en }}</a></p>
+            <p><a href="tel:{{ site.data.contact.phone_en }}" onclick="return gtag_report_conversion_call('tel:{{ site.data.contact.phone_en }}');">{{ site.data.contact.phone_en }}</a></p>
           </div>
         </div>
 
@@ -28,7 +28,7 @@ zh_pair: /zh/contact/
           <div class="icon">✉️</div>
           <div>
             <h4>Email</h4>
-            <p><a href="mailto:{{ site.data.contact.email }}">{{ site.data.contact.email }}</a></p>
+            <p><a href="mailto:{{ site.data.contact.email }}" onclick="return gtag_report_conversion_email('mailto:{{ site.data.contact.email }}');">{{ site.data.contact.email }}</a></p>
           </div>
         </div>
 
