@@ -86,6 +86,20 @@
     "url": "{{ site.url }}",
     "telephone": "{{ site.data.contact.phone_en }}",
     "email": "{{ site.data.contact.email }}",
+    "contactPoint": [
+      {
+        "@type": "ContactPoint",
+        "telephone": "{{ site.data.contact.phone_en }}",
+        "contactType": "customer service",
+        "availableLanguage": "English"
+      },
+      {
+        "@type": "ContactPoint",
+        "telephone": "{{ site.data.contact.phone_zh }}",
+        "contactType": "customer service",
+        "availableLanguage": "Chinese"
+      }
+    ],
     "address": {
       "@type": "PostalAddress",
       "addressLocality": "Vancouver",
