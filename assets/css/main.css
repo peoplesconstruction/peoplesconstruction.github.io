@@ -623,12 +623,18 @@ main {
   font-size: 1rem;
 }
 
-.footer-links a {
+.footer-links a,
+.footer-links span {
   display: block;
   color: var(--color-white);
   opacity: 0.8;
   padding: 4px 0;
   font-size: 1rem;
+}
+
+.footer-links span a {
+  display: inline;
+  padding: 0;
 }
 
 .footer-links a:hover {
