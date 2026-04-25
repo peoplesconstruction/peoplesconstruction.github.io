@@ -579,7 +579,6 @@ main {
   color: var(--color-text-light);
   margin-bottom: 0;
   font-size: 1rem;
-  overflow-wrap: anywhere;
 }
 
 .wechat-qr {
@@ -594,17 +593,11 @@ main {
   min-height: 400px;
 }
 
-.contact-form-section {
-  min-width: 0;
-}
-
 .contact-form-iframe {
   width: 100%;
-  max-width: 100%;
   border: 0;
   border-radius: 8px;
   display: block;
-  box-sizing: border-box;
 }
 
 .map-container iframe {
