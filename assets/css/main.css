@@ -577,15 +577,6 @@ main {
   min-height: 400px;
 }
 
-.contact-form-section h2 {
-  margin-bottom: 16px;
-}
-
-.contact-form-section p {
-  margin-bottom: 24px;
-  color: var(--color-text-light);
-}
-
 .contact-form-iframe {
   width: 100%;
   border: 0;
