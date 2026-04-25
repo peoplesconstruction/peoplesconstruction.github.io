@@ -714,6 +714,18 @@ main {
     display: block;
   }
 
+  .site-brand {
+    font-size: 0.95rem;
+    line-height: 1.15;
+    white-space: normal;
+    flex: 1 1 auto;
+    min-width: 0;
+  }
+
+  .site-brand span {
+    display: none;
+  }
+
   .nav-links {
     display: none;
     position: absolute;
