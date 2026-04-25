@@ -584,6 +584,7 @@ main {
   color: var(--color-text-light);
   margin-bottom: 0;
   font-size: 1rem;
+  overflow-wrap: anywhere;
 }
 
 .wechat-qr {
@@ -814,6 +815,10 @@ main {
 
   .about-content {
     grid-template-columns: 1fr;
+  }
+
+  .container {
+    padding: 0 12px;
   }
 
   .contact-grid {
