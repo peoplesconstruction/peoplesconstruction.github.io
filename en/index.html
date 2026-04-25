@@ -13,12 +13,32 @@ zh_pair: /zh/
   <div class="hero-content">
     <h1>BCCA Peoples Construction LTD</h1>
     <p class="tagline">Quality Landscaping & Construction in Greater Vancouver Since 2009</p>
-    <a href="/en/portfolio/" class="btn btn-primary">See Our Work</a>
+    <a href="/zh/" class="btn btn-primary">中文网页</a>
+  </div>
+</section>
+
+<!-- Our Work -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-title"><h2>Our Work</h2></div>
+    <div class="gallery-grid gallery-grid--compact">
+      {% for photo in site.data.gallery_en limit:6 %}
+      <figure class="gallery-item">
+        <img src="{{ photo.src }}" alt="{{ photo.alt }}" loading="lazy">
+        <figcaption>
+          <span>{{ photo.caption }}</span>
+        </figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+    <p style="text-align: center; margin-top: 32px;">
+      <a href="/en/portfolio/" class="btn btn-primary">View All Photos</a>
+    </p>
   </div>
 </section>
 
 <!-- Services Overview -->
-<section class="section section-alt">
+<section class="section">
   <div class="container">
     <div class="section-title"><h2>Our Services</h2></div>
     <div class="icon-cards">
@@ -53,26 +73,6 @@ zh_pair: /zh/
         <p>Concrete work, excavation, pressure washing, and more</p>
       </a>
     </div>
-  </div>
-</section>
-
-<!-- Our Work -->
-<section class="section">
-  <div class="container">
-    <div class="section-title"><h2>Our Work</h2></div>
-    <div class="gallery-grid gallery-grid--compact">
-      {% for photo in site.data.gallery_en limit:6 %}
-      <figure class="gallery-item">
-        <img src="{{ photo.src }}" alt="{{ photo.alt }}" loading="lazy">
-        <figcaption>
-          <span>{{ photo.caption }}</span>
-        </figcaption>
-      </figure>
-      {% endfor %}
-    </div>
-    <p style="text-align: center; margin-top: 32px;">
-      <a href="/en/portfolio/" class="btn btn-primary">View All Photos</a>
-    </p>
   </div>
 </section>
 

@@ -13,12 +13,32 @@ en_pair: /en/
   <div class="hero-content">
     <h1>BCCA Peoples Construction LTD</h1>
     <p class="tagline">自2009年以来为大温地区提供优质园林绿化与建筑服务</p>
-    <a href="/zh/portfolio/" class="btn btn-primary">查看我们的作品</a>
+    <a href="/en/" class="btn btn-primary">English Site</a>
+  </div>
+</section>
+
+<!-- Our Work -->
+<section class="section section-alt">
+  <div class="container">
+    <div class="section-title"><h2>作品展示</h2></div>
+    <div class="gallery-grid gallery-grid--compact">
+      {% for photo in site.data.gallery_zh limit:6 %}
+      <figure class="gallery-item">
+        <img src="{{ photo.src }}" alt="{{ photo.alt }}" loading="lazy">
+        <figcaption>
+          <span>{{ photo.caption }}</span>
+        </figcaption>
+      </figure>
+      {% endfor %}
+    </div>
+    <p style="text-align: center; margin-top: 32px;">
+      <a href="/zh/portfolio/" class="btn btn-primary">查看全部照片</a>
+    </p>
   </div>
 </section>
 
 <!-- Services Overview -->
-<section class="section section-alt">
+<section class="section">
   <div class="container">
     <div class="section-title"><h2>我们的服务</h2></div>
     <div class="icon-cards">
@@ -53,26 +73,6 @@ en_pair: /en/
         <p>混凝土工程、挖掘、高压清洗等</p>
       </a>
     </div>
-  </div>
-</section>
-
-<!-- Our Work -->
-<section class="section">
-  <div class="container">
-    <div class="section-title"><h2>作品展示</h2></div>
-    <div class="gallery-grid gallery-grid--compact">
-      {% for photo in site.data.gallery_zh limit:6 %}
-      <figure class="gallery-item">
-        <img src="{{ photo.src }}" alt="{{ photo.alt }}" loading="lazy">
-        <figcaption>
-          <span>{{ photo.caption }}</span>
-        </figcaption>
-      </figure>
-      {% endfor %}
-    </div>
-    <p style="text-align: center; margin-top: 32px;">
-      <a href="/zh/portfolio/" class="btn btn-primary">查看全部照片</a>
-    </p>
   </div>
 </section>
 
