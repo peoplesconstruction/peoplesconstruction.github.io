@@ -51,6 +51,17 @@
   }
   </script>
 
+  <!-- Event snippet for Form submission conversion page -->
+  <script>
+  function gtag_report_conversion_form() {
+    gtag('event', 'conversion', {
+        'send_to': 'AW-18062849405/2v0bCJPxuaIcEP3qhKVD',
+        'value': 5.0,
+        'currency': 'CAD'
+    });
+  }
+  </script>
+
   {% if page.lang == 'en' and page.zh_pair %}
   <link rel="alternate" hreflang="zh" href="{{ site.url }}{{ page.zh_pair }}">
   <link rel="alternate" hreflang="en" href="{{ page.url }}">
