@@ -73,8 +73,12 @@ en_pair: /en/contact/
     var loadCount = 0;
     iframe.addEventListener('load', function() {
       loadCount++;
-      if (loadCount > 1 && typeof gtag_report_conversion_form === 'function') {
-        gtag_report_conversion_form();
+      if (loadCount > 1) {
+        var top = iframe.getBoundingClientRect().top + window.scrollY - 90;
+        window.scrollTo({ top: top, behavior: 'smooth' });
+        if (typeof gtag_report_conversion_form === 'function') {
+          gtag_report_conversion_form();
+        }
       }
     });
   })();
